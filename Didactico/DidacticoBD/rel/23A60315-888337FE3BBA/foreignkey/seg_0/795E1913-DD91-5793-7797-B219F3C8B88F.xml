@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="795E1913-DD91-5793-7797-B219F3C8B88F" containerWithKeyObject="7C53342E-9D24-21C8-156B-7639F95D26D2" localFKIndex="5F5F17AB-B67F-E7E3-5D57-872EF5DE1013" name="Puntaje_Persona_FK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>35A675CB-3864-D134-9443-8575B9338657</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<referredTableLongName>Persona</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>38EDE644-6954-2C09-4CE0-59FC7132E70E</referredTableID>
+<keyObject>94AD5E65-916C-CB03-C3A0-D0C5BDF67BCE</keyObject>
+<referredKeyID>94AD5E65-916C-CB03-C3A0-D0C5BDF67BCE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idPersona</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

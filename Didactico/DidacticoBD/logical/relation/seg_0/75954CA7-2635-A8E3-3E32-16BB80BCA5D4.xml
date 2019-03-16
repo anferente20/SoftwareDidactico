@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contiene" directorySegmentName="seg_0" id="75954CA7-2635-A8E3-3E32-16BB80BCA5D4">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:35:56 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<sourcePk>9877CBB5-00E7-4319-9910-E3F4003C1CD8</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>categoria</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EC112474-30C9-FC27-35A8-51EA4A638A85</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FC09C04F-AF55-B570-C02C-4D1CA7E629BD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

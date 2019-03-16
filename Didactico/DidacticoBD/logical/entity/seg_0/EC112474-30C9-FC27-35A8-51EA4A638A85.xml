@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EC112474-30C9-FC27-35A8-51EA4A638A85" name="Categoria">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:35:04 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idCategoria" id="4AB200D6-6A95-AC47-CA1B-CDCCD353C394">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:35:16 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="categoria" id="ADD543A6-0D58-6838-DA46-B46FA1DF1B0B">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:35:28 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9877CBB5-00E7-4319-9910-E3F4003C1CD8" name="Categoria PK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:35:26 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4AB200D6-6A95-AC47-CA1B-CDCCD353C394</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

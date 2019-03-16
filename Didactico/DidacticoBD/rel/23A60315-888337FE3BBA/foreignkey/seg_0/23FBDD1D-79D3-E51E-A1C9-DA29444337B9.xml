@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="23FBDD1D-79D3-E51E-A1C9-DA29444337B9" containerWithKeyObject="C5B54D0C-0D84-543F-0851-5AECF1CA2D04" localFKIndex="27AD659B-EC47-9C31-1D55-906154ACCF21" name="Revisa_Test_FK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>E7E66794-0E75-7D86-335E-6A20AD587F43</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<referredTableLongName>Test</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>33DE3249-B291-4044-415C-2F96268DDC4B</referredTableID>
+<keyObject>05A717B3-6ACF-2397-CCE3-7928597E2010</keyObject>
+<referredKeyID>05A717B3-6ACF-2397-CCE3-7928597E2010</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idTest</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

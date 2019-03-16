@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Revisa" directorySegmentName="seg_0" id="E7E66794-0E75-7D86-335E-6A20AD587F43">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:38:18 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>460D97FB-3A5E-4518-5AB9-F8CA2D2F7D31</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FC09C04F-AF55-B570-C02C-4D1CA7E629BD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

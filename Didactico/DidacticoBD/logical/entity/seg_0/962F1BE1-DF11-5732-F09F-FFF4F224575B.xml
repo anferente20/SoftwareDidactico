@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="962F1BE1-DF11-5732-F09F-FFF4F224575B" name="TipoPersona">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:29:38 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idTipoPersona" id="9717A991-18A1-BBDF-B92E-351617877DE7">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:29:46 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoPersona" id="F8508CA2-B57B-ED19-2C7B-420DC73C2AF9">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:30:17 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B12F26FD-18F1-D327-F127-850AF403258B" name="TipoPersona PK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:29:48 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9717A991-18A1-BBDF-B92E-351617877DE7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

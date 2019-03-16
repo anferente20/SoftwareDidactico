@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tienev1" directorySegmentName="seg_0" id="7B5A7C92-ABC8-97AB-F3DD-7909AA8FA23A">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:44:14 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<sourcePk>ACE454F3-BC98-1326-8AAD-D303B7271AC2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4EDBFB30-D05F-3063-921C-317DDE4CB89D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>06CD9F0B-1C7A-C370-EEB1-0021BC8966E6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

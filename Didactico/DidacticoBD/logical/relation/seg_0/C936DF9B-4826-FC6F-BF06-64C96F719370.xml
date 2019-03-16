@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tipo Persona" directorySegmentName="seg_0" id="C936DF9B-4826-FC6F-BF06-64C96F719370">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:30:44 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<sourcePk>B12F26FD-18F1-D327-F127-850AF403258B</sourcePk>
+<targetPk>B12F26FD-18F1-D327-F127-850AF403258B</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>962F1BE1-DF11-5732-F09F-FFF4F224575B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>460D97FB-3A5E-4518-5AB9-F8CA2D2F7D31</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="realiza" directorySegmentName="seg_0" id="23D0CD67-0149-85E7-6AB8-1086C4A4C0F9">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:37:15 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<sourcePk>7E86C162-2E34-5E52-3100-8A54D280DDB5</sourcePk>
+<targetPk>F9FD92BC-AC33-45C5-E590-BA7FEE10BCEC</targetPk>
+<identifying>false</identifying>
+<nameOnTarget>test</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FC09C04F-AF55-B570-C02C-4D1CA7E629BD</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>460D97FB-3A5E-4518-5AB9-F8CA2D2F7D31</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="00381834-93FF-D5E9-5600-305EFF776680" containerWithKeyObject="086B5132-1B9D-E4BC-C176-6A391008B9D3" localFKIndex="7A90CD41-A794-3B05-4ED8-A7F24B52F260" name="realiza_Test_FK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>23D0CD67-0149-85E7-6AB8-1086C4A4C0F9</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<referredTableLongName>Test</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>33DE3249-B291-4044-415C-2F96268DDC4B</referredTableID>
+<keyObject>05A717B3-6ACF-2397-CCE3-7928597E2010</keyObject>
+<referredKeyID>05A717B3-6ACF-2397-CCE3-7928597E2010</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idTest</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

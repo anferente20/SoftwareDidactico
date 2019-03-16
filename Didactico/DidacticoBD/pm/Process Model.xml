@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="2965B331-4053-4F7A-DDE2-D3454AAE17C0">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 14:35:49 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

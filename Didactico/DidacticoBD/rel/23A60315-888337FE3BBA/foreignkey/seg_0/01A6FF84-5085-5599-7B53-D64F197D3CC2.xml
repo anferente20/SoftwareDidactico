@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="01A6FF84-5085-5599-7B53-D64F197D3CC2" containerWithKeyObject="7C53342E-9D24-21C8-156B-7639F95D26D2" localFKIndex="3CBAEAA6-D2F1-27A6-EA5A-0DEDA34067ED" name="Puntaje_Juego_FK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>7B5A7C92-ABC8-97AB-F3DD-7909AA8FA23A</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<referredTableLongName>Juego</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>098FC15C-DD9B-D85E-E7BF-D7F498E874A5</referredTableID>
+<keyObject>48EB8E8B-2FDF-993B-0C25-B7F388988510</keyObject>
+<referredKeyID>48EB8E8B-2FDF-993B-0C25-B7F388988510</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idJuego</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06CD9F0B-1C7A-C370-EEB1-0021BC8966E6" name="Puntaje">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:43:15 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idPuntaje" id="0CA6E9BD-50F3-4ACD-62F1-7D92C8ABC86C">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:43:24 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntaje" id="09E54824-4E4C-E331-B514-4B7839B742DD">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:43:41 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idJuego" id="C1F37433-8F16-DF6E-65D9-77FAF5EB2892">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:44:14 UTC</createdTime>
+<generatorID>7B5A7C92-ABC8-97AB-F3DD-7909AA8FA23A</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<referedAttribute>CB48DAA7-D4A1-47FD-8B5D-350EE3E0DA39</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idPersona" id="15082DDF-8DAA-B5C0-E1FF-B572FDBAB010">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:44:56 UTC</createdTime>
+<generatorID>35A675CB-3864-D134-9443-8575B9338657</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<referedAttribute>91AEBC05-5C6C-481A-4807-E186B5125A95</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07251812-D50F-E60E-4A19-DC67F7A494FD" name="Puntaje PK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:43:39 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0CA6E9BD-50F3-4ACD-62F1-7D92C8ABC86C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F3E4F553-D278-FE55-AE0B-F510F0244657" mainViewID="21075977-2C8D-992C-4DF8-D3D289AC03DB">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 14:35:34 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

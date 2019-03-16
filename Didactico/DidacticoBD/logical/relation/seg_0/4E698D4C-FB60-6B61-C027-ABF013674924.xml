@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Necesita" directorySegmentName="seg_0" id="4E698D4C-FB60-6B61-C027-ABF013674924">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:41:08 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<engineerTo>
+<item key="23A60315-4E35-F9FF-E156-888337FE3BBA" value="true"/>
+</engineerTo>
+<sourcePk>8BF74447-EFB1-3FB9-707E-023E28C96E09</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F37FD0FD-FEE9-6C55-A0FA-796949A7A306</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A496E19-B93A-8940-0C66-3F6EB5C52642</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
