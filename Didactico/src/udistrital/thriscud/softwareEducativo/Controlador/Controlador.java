@@ -11,18 +11,21 @@ import udistrital.thriscud.softwareEducativo.conexionBD.UsuarioBD;
 public class Controlador implements ActionListener{
 	InicioSesion ventanita;
 	VentanaPrincipal principal;
-	UsuarioBD gg;
+	UsuarioBD user;
 	
+	//Se agrega atributo de tipo usuario para que se aloje el usuario actual
+	Usuario usuario;
 	public Controlador(InicioSesion ventanita){
 		this.ventanita = ventanita;
-		gg = new UsuarioBD();
+		user = new UsuarioBD();
+		usuario = null;
 	}
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		JButton objeto = (JButton) e.getSource();
 		if(objeto.equals(ventanita.btnIngresar)){
 			try {
-				gg.ingresar(ventanita.getUsuario(), ventanita.getPassword());
+				usuario = user.ingresar(ventanita.getUsuario(), ventanita.getPassword());
 				ingresar();
 			} catch (Exception e2) {
 				JOptionPane.showMessageDialog(null, e2.getMessage());
@@ -33,9 +36,10 @@ public class Controlador implements ActionListener{
 
 	
 	/**Metodo del boton ingresar*/
-	public void ingresar(){
-		principal = new VentanaPrincipal();	//ESTO ES MACHETAZO, ES PARA QUE VEAN COMO FUNCIONA LA NAVEGACION DE LA APLICACION 
+	public void ingresar(){ 
+		principal = new VentanaPrincipal(); 
 		ventanita.setVisible(false);
 		principal.setVisible(true);
 	}
+	
 }
