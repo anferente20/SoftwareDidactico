@@ -1,38 +1,29 @@
 package udistrital.thriscud.softwareEducativo.vista;
 
-import java.awt.BorderLayout;
-import java.awt.EventQueue;
-
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-import javax.swing.JLabel;
-import javax.swing.ImageIcon;
 
-public class VentanaBiologia extends JFrame {
-
-	private JPanel contentPane;
-
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					VentanaBiologia frame = new VentanaBiologia();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
+public class VentanaBiologia extends VentanaMateria {
 
 	public VentanaBiologia() {
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		super();
+		setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
 		setBounds(100, 100, 1016, 756);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
+
+		btnInicio.setIcon(
+				new ImageIcon(VentanaMatematicas.class.getResource("/ElementosInterfaz/botonCatMatInicio.png")));
+		contentPane.add(btnInicio);
+
+		btnPuntaje.setIcon(
+				new ImageIcon(VentanaMatematicas.class.getResource("/ElementosInterfaz/botonCatMatPuntaje.png")));
+		contentPane.add(btnPuntaje);
 
 		JLabel lblContenedorMientras = new JLabel("contenedor mientras");
 		lblContenedorMientras.setIcon(

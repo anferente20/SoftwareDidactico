@@ -1,18 +1,12 @@
-import java.awt.EventQueue;
-
-import udistrital.thriscud.softwareEducativo.vista.InicioSesion;
+import udistrital.thriscud.softwareEducativo.Controlador.Controlador;
 
 public class Launcher {
 	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					InicioSesion hola = new InicioSesion();
-					hola.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
+		try {
+			Controlador controlador = new Controlador();
+			controlador.execute();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 }
