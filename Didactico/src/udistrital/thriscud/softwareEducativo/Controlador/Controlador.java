@@ -2,6 +2,7 @@
  * 
  * @author: Edwin Aaron Garcia Pulido (edaagapu)
  * 
+ * 
  * Esta clase permite relacionar la lógica del programa con las interfaces graficas (GUI),
  * esto se hace con el objetivo de separar la lógica de la vista, para hacer el mantenimiento un
  * poco mas fácil.
