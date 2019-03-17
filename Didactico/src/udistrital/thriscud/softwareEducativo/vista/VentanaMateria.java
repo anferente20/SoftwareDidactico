@@ -12,8 +12,10 @@ public abstract class VentanaMateria extends JFrame {
 	protected JButton btnInicio;
 	protected JButton btnPuntaje;
 
-	// Se deja comentareado el arraylist de todos los distintos juegos para cuando
-	// los creen
+	/*
+	 * Se deja comentareado el arraylist de todos los distintos juegos para cuando
+	 * los creen
+	 */
 //  protected ArrayList<PJuego> pnlJuegos;
 	public VentanaMateria() {
 		btnInicio = new JButton("");
