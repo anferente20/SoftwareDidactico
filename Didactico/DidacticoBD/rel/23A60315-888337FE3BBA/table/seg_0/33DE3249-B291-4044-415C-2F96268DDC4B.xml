@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33DE3249-B291-4044-415C-2F96268DDC4B" name="Test">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>FC09C04F-AF55-B570-C02C-4D1CA7E629BD</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idTest" id="A34216A9-4487-9F55-6208-20C6FE5792E2">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>B261E7A7-51FA-5B50-F60E-4354E5F3AD91</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resultado" id="7ED91F53-B370-FF21-F75B-BE17C21DF1FC">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>0C5012E4-C57A-A32B-05D3-F55A70E7D6AF</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria_idCategoria" id="EACA151C-3040-C339-BD70-6802C5135329">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>44AA1A39-AADB-F983-BC77-8E0F688A0239</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87BA61BD-A3A0-AA2B-86D4-3DF97A64F641" referredColumn="862A5184-A556-A7AD-6220-413F32130C92"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05A717B3-6ACF-2397-CCE3-7928597E2010" name="Test_PK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>7E86C162-2E34-5E52-3100-8A54D280DDB5</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A34216A9-4487-9F55-6208-20C6FE5792E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8363CBFE-9501-AF99-5F4C-F10C33445776" name="Test_Categoria_FK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>75954CA7-2635-A8E3-3E32-16BB80BCA5D4</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EACA151C-3040-C339-BD70-6802C5135329"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

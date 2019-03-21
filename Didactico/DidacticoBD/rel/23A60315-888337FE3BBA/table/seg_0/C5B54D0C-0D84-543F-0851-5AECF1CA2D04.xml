@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C5B54D0C-0D84-543F-0851-5AECF1CA2D04" name="Revisa">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Persona_idPersona" id="347E2853-D83A-42B4-16A5-5D05A00F1D64">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1818F1A3-C90B-DEC4-70DC-AEE7EA4613EB" referredColumn="3E611926-6AC9-9861-DE2B-C00AEA775645"/>
+</associations>
+</Column>
+<Column name="Test_idTest" id="41A0FC74-BB7C-0C49-4BA9-9276EA3416EF">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23FBDD1D-79D3-E51E-A1C9-DA29444337B9" referredColumn="A34216A9-4487-9F55-6208-20C6FE5792E2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E0BE79C-EC54-6C98-E72A-4E7E904E1587" name="Revisa_PK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="347E2853-D83A-42B4-16A5-5D05A00F1D64"/>
+<colUsage columnID="41A0FC74-BB7C-0C49-4BA9-9276EA3416EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D19F81ED-2C33-5982-F62B-1CD147F61EA8" name="Revisa_Persona_FK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>E7E66794-0E75-7D86-335E-6A20AD587F43</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="347E2853-D83A-42B4-16A5-5D05A00F1D64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27AD659B-EC47-9C31-1D55-906154ACCF21" name="Revisa_Test_FK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>E7E66794-0E75-7D86-335E-6A20AD587F43</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41A0FC74-BB7C-0C49-4BA9-9276EA3416EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C53342E-9D24-21C8-156B-7639F95D26D2" name="Puntaje">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>06CD9F0B-1C7A-C370-EEB1-0021BC8966E6</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idPuntaje" id="B469CFD9-971D-ABAE-236A-9C1C000B4392">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>0CA6E9BD-50F3-4ACD-62F1-7D92C8ABC86C</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje" id="BD549EE4-5FB6-7A20-520E-48D199F1776F">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>09E54824-4E4C-E331-B514-4B7839B742DD</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Juego_idJuego" id="2BFF75B3-F6B5-0080-3B2B-983C5A6A307B">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>C1F37433-8F16-DF6E-65D9-77FAF5EB2892</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01A6FF84-5085-5599-7B53-D64F197D3CC2" referredColumn="B64AF8E9-ADDE-474B-07A8-E938ABD688EE"/>
+</associations>
+</Column>
+<Column name="Persona_idPersona" id="CA706051-8DDD-4000-7BCD-2B824938C924">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>15082DDF-8DAA-B5C0-E1FF-B572FDBAB010</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="795E1913-DD91-5793-7797-B219F3C8B88F" referredColumn="3E611926-6AC9-9861-DE2B-C00AEA775645"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCC64A93-D2C2-3DBC-D354-4F628140D664" name="Puntaje_PK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>07251812-D50F-E60E-4A19-DC67F7A494FD</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B469CFD9-971D-ABAE-236A-9C1C000B4392"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F5F17AB-B67F-E7E3-5D57-872EF5DE1013" name="Puntaje_Persona_FK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>35A675CB-3864-D134-9443-8575B9338657</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA706051-8DDD-4000-7BCD-2B824938C924"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CBAEAA6-D2F1-27A6-EA5A-0DEDA34067ED" name="Puntaje_Juego_FK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>7B5A7C92-ABC8-97AB-F3DD-7909AA8FA23A</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BFF75B3-F6B5-0080-3B2B-983C5A6A307B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

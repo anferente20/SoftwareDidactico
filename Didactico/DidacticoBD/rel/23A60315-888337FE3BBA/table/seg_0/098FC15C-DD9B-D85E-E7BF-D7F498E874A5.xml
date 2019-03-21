@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="098FC15C-DD9B-D85E-E7BF-D7F498E874A5" name="Juego">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>4EDBFB30-D05F-3063-921C-317DDE4CB89D</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idJuego" id="B64AF8E9-ADDE-474B-07A8-E938ABD688EE">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>CB48DAA7-D4A1-47FD-8B5D-350EE3E0DA39</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreJuego" id="6B2603D1-4499-0FE0-8DD6-20EE6DEB3FE2">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>CFA6AE34-A22F-1FCB-0271-BF7F730B3773</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Categoria_idCategoria" id="DBF803E6-0D69-2417-463E-AF922E5787FE">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>0453186F-5A74-B03A-6BED-06894344C560</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="250821DC-AC96-D3B8-EB3F-E34969EF4DE9" referredColumn="862A5184-A556-A7AD-6220-413F32130C92"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48EB8E8B-2FDF-993B-0C25-B7F388988510" name="Juego_PK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>ACE454F3-BC98-1326-8AAD-D303B7271AC2</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B64AF8E9-ADDE-474B-07A8-E938ABD688EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F68E6F2D-1FC8-B7AE-2FA0-0C72528F9D43" name="Juego_Categoria_FK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>6C6F1BD7-A67C-07FD-252B-82DD250976B8</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBF803E6-0D69-2417-463E-AF922E5787FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

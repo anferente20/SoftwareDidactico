@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DidacticoBD" id="9AEF28DE-59C8-2EA8-A896-F4AB4AE6A361" version="3.5">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 14:35:33 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9AEF28DE-59C8-2EA8-A896-F4AB4AE6A361</designId>
+</OSDM_Design>

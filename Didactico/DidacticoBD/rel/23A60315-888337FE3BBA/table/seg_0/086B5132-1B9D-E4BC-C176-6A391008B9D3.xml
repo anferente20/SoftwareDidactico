@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="086B5132-1B9D-E4BC-C176-6A391008B9D3" name="realiza">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Test_idTest" id="198CA496-F495-C506-A2C8-C594CE38BCC0">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00381834-93FF-D5E9-5600-305EFF776680" referredColumn="A34216A9-4487-9F55-6208-20C6FE5792E2"/>
+</associations>
+</Column>
+<Column name="Persona_idPersona" id="8E182E01-FBBA-B710-17A8-C63D97AC8C4B">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBE35833-DFC5-5B69-6CE2-D3BA359DE807" referredColumn="3E611926-6AC9-9861-DE2B-C00AEA775645"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27416651-998D-2EA3-9A1A-06B1F2EE5F32" name="realiza_PK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="198CA496-F495-C506-A2C8-C594CE38BCC0"/>
+<colUsage columnID="8E182E01-FBBA-B710-17A8-C63D97AC8C4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A90CD41-A794-3B05-4ED8-A7F24B52F260" name="realiza_Test_FK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>23D0CD67-0149-85E7-6AB8-1086C4A4C0F9</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="198CA496-F495-C506-A2C8-C594CE38BCC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21E6FA77-FB93-109C-048A-0B332EFE99CA" name="realiza_Persona_FK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:24 UTC</createdTime>
+<generatorID>23D0CD67-0149-85E7-6AB8-1086C4A4C0F9</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E182E01-FBBA-B710-17A8-C63D97AC8C4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

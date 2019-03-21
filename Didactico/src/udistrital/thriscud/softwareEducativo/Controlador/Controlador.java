@@ -45,6 +45,7 @@ public class Controlador implements ActionListener {
 		ventanaRegistro.addControlador(this);
 		ventanaPrincipal = new VentanaPrincipal();
 		ventanaPrincipal.addControlador(this);
+		user = new UsuarioBD();
 	}
 
 	// Metodo para ejecutar el programa
@@ -85,10 +86,13 @@ public class Controlador implements ActionListener {
 			// Ventana de Creditos
 		} else if (objeto.equals(ventanaPrincipal.getBtnCerrarSesion())) {
 			pantallaInicial();
-		} else if (objeto.equals(ventanaMateria.getBtnInicio())) {
+		} else if (objeto.equals(ventanaRegistro.getBtnRegistrarse())) {
+			registrarUsuario();
+		}
+		else if (objeto.equals(ventanaMateria.getBtnInicio())) {
 			volverPrincipal();
 		} else if (objeto.equals(ventanaMateria.getBtnPuntaje())) {
-			// Ventana de Puntaje
+		// Ventana de Puntaje
 		}
 	}
 

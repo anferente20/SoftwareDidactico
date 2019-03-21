@@ -12,7 +12,7 @@ import java.sql.SQLException;
 public abstract class Conection implements BD {
 	 /*Usuario y pass de la Base de Datos. */
 	 protected String user = "C##Rente";
-	 protected String pass = "Afrv5497";
+	 protected String pass = "C##Rente";
 	  
 	 /* URL de la Base de Datos */
 	 protected static String url = "jdbc:oracle:thin:@localhost:1521:XE";

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="19A6328E-B221-9B45-73EC-E563DB443CDE" name="Categoria">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:23 UTC</createdTime>
+<generatorID>EC112474-30C9-FC27-35A8-51EA4A638A85</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCategoria" id="862A5184-A556-A7AD-6220-413F32130C92">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:23 UTC</createdTime>
+<generatorID>4AB200D6-6A95-AC47-CA1B-CDCCD353C394</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="categoria" id="65678177-15CE-9874-F2B1-45BF80065502">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:23 UTC</createdTime>
+<generatorID>ADD543A6-0D58-6838-DA46-B46FA1DF1B0B</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E79849F-12BC-854C-4520-F2F1DB258EFB" name="Categoria_PK">
+<createdBy>anfer</createdBy>
+<createdTime>2019-02-27 17:46:23 UTC</createdTime>
+<generatorID>9877CBB5-00E7-4319-9910-E3F4003C1CD8</generatorID>
+<ownerDesignName>DidacticoBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="862A5184-A556-A7AD-6220-413F32130C92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

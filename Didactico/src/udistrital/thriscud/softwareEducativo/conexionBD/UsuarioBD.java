@@ -105,9 +105,8 @@ public class UsuarioBD extends Conection {
 				datos.getInt("idpersona"));
 				f = true; 
 			}
-			System.out.println(datos.getString("usuario")+" "+datos.getString("contrasena"));
 		 }
-		
+		System.out.println(f);
 		 if(f==false) {
 			 throw new Exception ("Usuario y/o contraseña erroneos");
 		 }
